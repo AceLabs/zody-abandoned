@@ -1,8 +1,10 @@
 include('nody_listeners');
 include('nody_mouse');
+include('nody_private');
 
 var Nody = {
-    mouseLeftDownOnNode: null,
+    node_mouseLeftDown: null,
+
     root: {
         id: 'root',
         x: 0, y: 0,
@@ -20,8 +22,27 @@ var Nody = {
         kids: []
     },
 
-    _nodeStack: []
+    _nodeStack: [],
+
+    listenerRegistry: {
+        onMouseLeftDown: {} // cb by node id
+        , onMouseLeftUp: {} // cb by node id
+        , onMouseLeftClick: {} // cb by node id
+    },
+
+    _nodeById: {},
+
+    _nextId: 0
 };
+
+function ndNextId() {
+    if ( Nody._nextId > 65000 ) {
+        print('Next ID is too large!! See nody.js');
+        throw 'Next ID is too large!! See nody.js';
+    }
+
+    return Nody._nextId++;
+}
 
 function ndPeek() {
     return Nody._nodeStack[ Nody._nodeStack.length - 1 ];
@@ -30,20 +51,40 @@ function ndPeek() {
 Nody._nodeStack.push(Nody.root);
 Nody._curNode = ndPeek();
 
-function ndBegin() {
+function ndOnMouseLeftDown(cb) {
+    Nody.listenerRegistry.onMouseLeftDown[ Nody._curNode.id ] = cb;
+}
+
+function ndOnMouseLeftUp(cb) {
+    Nody.listenerRegistry.onMouseLeftUp[ Nody._curNode.id ] = cb;
+}
+
+function ndOnMouseLeftClick(cb) {
+    Nody.listenerRegistry.onMouseLeftClick[ Nody._curNode.id ] = cb;
+}
+
+function ndBegin(id) {
+    id = id || ndNextId();
+
     if (Nody._curNode != null) {
-        var newNode = {parent: Nody._curNode, kids:[]};
+        var newNode = {parent: Nody._curNode};
         Nody._curNode.kids.push(newNode);
         Nody._curNode = newNode;
     }
     else
-        Nody._curNode = {kids:[]};
+        Nody._curNode = {};
 
     Nody._nodeStack.push(Nody._curNode);
+
+    Nody._curNode.id = id;
+    Nody._curNode.kids = [];
+
+    Nody._nodeById[id] = Nody._curNode;
 }
 
-function ndId(id) {
-    Nody._curNode.id = id;
+
+function ndById(id) {
+    return Nody._nodeById[id];
 }
 
 function ndPos(x, y) {
@@ -97,3 +138,16 @@ function ndEnd() {
     Nody._nodeStack.pop();
     Nody._curNode = ndPeek();
 }
+
+function ndFindNodeAt(x,y) {
+    // this function will be affected by introduction of the following tags
+    //visible
+    //clip
+    //global pos kids
+
+    var node = Nody.root;
+    var screenRegion = [node.x, node.y, node.w, node.h];
+
+    return _ndFindNodeAt(x,y,node,screenRegion);
+}
+

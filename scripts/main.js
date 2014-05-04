@@ -1,8 +1,12 @@
 include("asserts");
 include("bellina");
+//include("test/nody_test"); nody_test();
 
-ndBegin();
-    ndId('p');
+    ndOnMouseLeftClick(function (x,y) {
+        println('mouse left click on ' + this.id);
+    });
+
+ndBegin('p');
     ndPos(120,20);
     ndDim(300, 600);
     ndBorderColor(1, 0, 0);
@@ -17,8 +21,11 @@ ndBegin();
 
     ndOpacity(1);
 
-    ndBegin();
-        ndId('c1');
+    ndOnMouseLeftClick(function (x,y) {
+        println('mouse left click on ' + this.id);
+    });
+
+    ndBegin('c1');
         ndPos(150,100);
         ndDim(200, 150);
         ndBorderColor(0, 1, 0);
@@ -32,8 +39,7 @@ ndBegin();
         ndOpacity(1);
     ndEnd();
 
-    ndBegin();
-        ndId('c2');
+    ndBegin('c2');
         ndPos(150,300);
         ndDim(200, 150);
         ndBorderColor(0, 1, 0);
