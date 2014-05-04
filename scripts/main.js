@@ -2,9 +2,9 @@ include("asserts");
 include("bellina");
 //include("test/nody_test"); nody_test();
 
-    ndOnMouseLeftClick(function (x,y) {
-        println('mouse left click on ' + this.id);
-    });
+//    ndOnMouseLeftDown(function (x,y) {
+//        println('mouse left click on ' + this.id);
+//    });
 
 ndBegin('p');
     ndPos(120,20);
@@ -21,8 +21,8 @@ ndBegin('p');
 
     ndOpacity(1);
 
-    ndOnMouseLeftClick(function (x,y) {
-        println('mouse left click on ' + this.id);
+    ndRegister(Event.MOUSE_LEFT_DOWN, function (x, y) {
+      println('Plugin ' + this.id + ', ' + x + ':' + y);
     });
 
     ndBegin('c1');

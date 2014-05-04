@@ -1,3 +1,4 @@
+include('nody_event');
 include('nody_listeners');
 include('nody_mouse');
 include('nody_private');
@@ -23,13 +24,6 @@ var Nody = {
     },
 
     _nodeStack: [],
-
-    listenerRegistry: {
-        onMouseLeftDown: {} // cb by node id
-        , onMouseLeftUp: {} // cb by node id
-        , onMouseLeftClick: {} // cb by node id
-    },
-
     _nodeById: {},
 
     _nextId: 0
@@ -51,16 +45,8 @@ function ndPeek() {
 Nody._nodeStack.push(Nody.root);
 Nody._curNode = ndPeek();
 
-function ndOnMouseLeftDown(cb) {
-    Nody.listenerRegistry.onMouseLeftDown[ Nody._curNode.id ] = cb;
-}
-
-function ndOnMouseLeftUp(cb) {
-    Nody.listenerRegistry.onMouseLeftUp[ Nody._curNode.id ] = cb;
-}
-
-function ndOnMouseLeftClick(cb) {
-    Nody.listenerRegistry.onMouseLeftClick[ Nody._curNode.id ] = cb;
+function ndThis() {
+   return Nody._curNode;
 }
 
 function ndBegin(id) {
