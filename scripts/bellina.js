@@ -1,5 +1,4 @@
-include('bellina_listeners');
-include("bellina_mouse");
+include('nody');
 
 function blRender(node, d, parentScreenPos) {
     var screenPos = [node.x + parentScreenPos[0], node.y + parentScreenPos[1]];
@@ -50,18 +49,18 @@ function _blDrawText(node, d, screenPos) {
         if (node['textY'] === undefined)
             node.textY = 0;
 
-        if (node['fontname'] === undefined)
-            node.fontname = 'courier';
+        if (node['fontName'] === undefined)
+            node.fontName = 'courier';
 
-        if (node['fontstyle'] === undefined)
-            node.fontstyle = 'default';
+        if (node['fontStyle'] === undefined)
+            node.fontStyle = 'default';
 
-        if (node['fontsize'] === undefined)
-            node.fontsize = 10;
+        if (node['fontSize'] === undefined)
+            node.fontSize = 10;
 
         d.drawText( screenPos[0] + node.textX, screenPos[1] + node.textY,
                     node.text,
                     node.textColor[0], node.textColor[1], node.textColor[2],
-                    node.fontname, node.fontstyle, node.fontsize );
+                    node.fontName, node.fontStyle, node.fontSize );
     }
 }
