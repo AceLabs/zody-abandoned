@@ -4,12 +4,13 @@
     <list default="true" id="d20da618-b9be-4489-bcc8-1caf269371b8" name="Default" comment="" />
     <ignored path="nody.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399170704423" ignored="false" />
-    <file path="/main.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399184294102" ignored="false" />
+    <file path="/fragment.java" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399186812617" ignored="false" />
+    <file path="/main.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399186551685" ignored="false" />
     <file path="/bellina.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399184281744" ignored="false" />
-    <file path="/nody.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399185415166" ignored="false" />
+    <file path="/nody.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399186855734" ignored="false" />
     <file path="/nody_mouse.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399178911486" ignored="false" />
     <file path="/nody_listeners.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399179199519" ignored="false" />
+    <file path="/asserts.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399186438910" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,16 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="13" selection-start="639" selection-end="639" vertical-scroll-proportion="0.5904192">
+            <state line="32" column="0" selection-start="682" selection-end="682" vertical-scroll-proportion="0.52509654">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asserts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../scripts/asserts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,7 +92,7 @@
       <file leaf-file-name="nody.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../scripts/nody.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="19" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0">
+            <state line="97" column="4" selection-start="1793" selection-end="1793" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,6 +153,7 @@
         <option value="$PROJECT_DIR$/../scripts/nody_mouse.js" />
         <option value="$PROJECT_DIR$/../scripts/nody_listeners.js" />
         <option value="$PROJECT_DIR$/../scripts/bellina.js" />
+        <option value="$PROJECT_DIR$/../scripts/asserts.js" />
         <option value="$PROJECT_DIR$/../scripts/nody.js" />
         <option value="$PROJECT_DIR$/../scripts/main.js" />
       </list>
@@ -217,6 +228,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js_ellina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nody" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js_ellina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -428,8 +461,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.81073445" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.81073445" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18926553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.4284369" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57156307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -560,6 +593,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../js_ellina/src/js_ellina/js/sys_common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/bellina.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="61" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.0">
@@ -569,14 +609,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/nody.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="19" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0">
+        <state line="97" column="4" selection-start="1793" selection-end="1793" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scripts/asserts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="639" selection-end="639" vertical-scroll-proportion="0.5904192">
+        <state line="32" column="0" selection-start="682" selection-end="682" vertical-scroll-proportion="0.52509654">
           <folding />
         </state>
       </provider>

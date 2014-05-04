@@ -4,6 +4,7 @@ include('nody_mouse');
 var Nody = {
     mouseLeftDownOnNode: null,
     root: {
+        id: 'root',
         x: 0, y: 0,
         w: 1024, h: 775,
         borderColor: [0, 0, 1],
@@ -22,7 +23,12 @@ var Nody = {
     _nodeStack: []
 };
 
-Nody._curNode = Nody.root;
+function ndPeek() {
+    return Nody._nodeStack[ Nody._nodeStack.length - 1 ];
+}
+
+Nody._nodeStack.push(Nody.root);
+Nody._curNode = ndPeek();
 
 function ndBegin() {
     if (Nody._curNode != null) {
@@ -34,6 +40,10 @@ function ndBegin() {
         Nody._curNode = {kids:[]};
 
     Nody._nodeStack.push(Nody._curNode);
+}
+
+function ndId(id) {
+    Nody._curNode.id = id;
 }
 
 function ndPos(x, y) {
@@ -84,10 +94,6 @@ function ndTextPos(x, y) {
 }
 
 function ndEnd() {
-    delete Nody._nodeStack[Nody._nodeStack.length - 1];
-
-    if (Nody._nodeStack.length > 0)
-        Nody._curNode = Nody._nodeStack[Nody._nodeStack.length - 1]
-    else
-        Nody._curNode = null;
+    Nody._nodeStack.pop();
+    Nody._curNode = ndPeek();
 }
