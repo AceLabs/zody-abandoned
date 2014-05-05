@@ -1,7 +1,6 @@
-include("asserts");
 include("bellina");
 
-//include("test/nody_test"); nody_test();
+//include("asserts"); include("test/nody_test"); nody_test();
 
 ndBegin('p');
    ndPos(120,20);

@@ -1,8 +1,8 @@
-include('nody_plugin');
-include('nody_event');
-include('nody_listeners');
-include('nody_mouse');
-include('nody_private');
+include('nody/nody_plugin');
+include('nody/nody_event');
+include('nody/nody_listeners');
+include('nody/nody_mouse');
+include('nody/nody_private');
 
 var Nody = {
    root: {

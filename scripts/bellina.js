@@ -1,4 +1,4 @@
-include('nody');
+include('nody/nody');
 
 function blRender(node, d, parentScreenPos) {
     var screenPos = [node.x + parentScreenPos[0], node.y + parentScreenPos[1]];
