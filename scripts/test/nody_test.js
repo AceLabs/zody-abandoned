@@ -1,3 +1,4 @@
+include('test/asserts');
 include('test/nody_test_ndGetClippedRegion');
 
 function nody_test() {
