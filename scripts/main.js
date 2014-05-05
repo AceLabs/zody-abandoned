@@ -21,6 +21,11 @@ ndBegin('p');
 
    ndPlugin('vibrate', 'vibrate');
 
+   ndRegisterValue(ValueEvent.ON_X, ndThis(), function(tnode, oldv, newv) {
+      //println(oldv + ', ' + newv);
+      return newv + 2;
+   });
+
    ndBegin('c1');
       ndPos(150,100);
       ndDim(200, 150);

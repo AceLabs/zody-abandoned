@@ -8,7 +8,7 @@ function vibrate_init() {
    var y = node.y;
 
    ndRegister(Event.TICK, function () {
-      node.x = x + Math.random() * 5;
-      node.y = y + Math.random() * 5;
+      node.x -= 1;//x + Math.random() * 5;
+      //node.y -= 1;//y + Math.random() * 5;
    });
 }

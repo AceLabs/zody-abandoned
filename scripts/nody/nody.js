@@ -1,5 +1,6 @@
 include('nody/nody_plugin');
 include('nody/nody_event');
+include('nody/nody_event_value');
 include('nody/nody_listeners');
 include('nody/nody_mouse');
 include('nody/nody_private');
@@ -55,16 +56,34 @@ function ndVar(name, value) {
    Nody._curNode[name] = value;
 }
 
+function ndNew() {
+   return {
+      set x(i){
+         var orig = this._x;
+         var mod = ndFireValue(ValueEvent.ON_X, this, orig, i);
+
+         if (mod === undefined)
+            mod = i;
+
+         if (mod != orig)
+            this._x = mod;
+      },
+
+      get x(){ return this._x; }
+   };
+}
+
 function ndBegin(id) {
     id = id || ndNextId();
 
     if (Nody._curNode != null) {
-        var newNode = {parent: Nody._curNode};
+        var newNode = ndNew();
+        newNode.parent = Nody._curNode;
         Nody._curNode.kids.push(newNode);
         Nody._curNode = newNode;
     }
     else
-        Nody._curNode = {};
+        Nody._curNode = ndNew();
 
     Nody._nodeStack.push(Nody._curNode);
 
