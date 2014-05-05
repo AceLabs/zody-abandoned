@@ -4,29 +4,30 @@ include('nody_mouse');
 include('nody_private');
 
 var Nody = {
-    node_mouseLeftDown: null,
+   root: {
+      id: 'root',
+      x: 0, y: 0,
+      w: 1024, h: 775,
+      borderColor: [0, 0, 1],
+      color: [0, 0, 0.3],
+      textColor: [.9, 0.9, 0.9],
+      text: 'This is root',
+      textX: 20,
+      textY: 20,
+      fontname: 'courier',
+      fontstyle: 'default',
+      fontsize: 20,
+      opacity: 1,
+      kids: []
+   },
 
-    root: {
-        id: 'root',
-        x: 0, y: 0,
-        w: 1024, h: 775,
-        borderColor: [0, 0, 1],
-        color: [0, 0, 0.3],
-        textColor: [.9, 0.9, 0.9],
-        text: 'This is root',
-        textX: 20,
-        textY: 20,
-        fontname: 'courier',
-        fontstyle: 'default',
-        fontsize: 20,
-        opacity: 1,
-        kids: []
-    },
+   _nodeStack: [],
+   _nodeById: {},
 
-    _nodeStack: [],
-    _nodeById: {},
+   _nextId: 0,
 
-    _nextId: 0
+   _node_mouseLeftDown: null,
+   _node_mouseMove: null
 };
 
 function ndNextId() {

@@ -2,11 +2,27 @@ include("asserts");
 include("bellina");
 //include("test/nody_test"); nody_test();
 
-//    ndOnMouseLeftDown(function (x,y) {
-//        println('mouse left click on ' + this.id);
+//    ndOnMouseMove(function (x,y) {
+//        println('mouse move ' + this.id + ', ' + x + ', ' + y);
 //    });
 
+    ndOnMouseEnter(function (x,y) {
+        println('Entering ' + this.id);
+    });
+//
+    ndOnMouseExit(function (x,y) {
+        println('Exiting ' + this.id);
+    });
+
 ndBegin('p');
+    ndOnMouseEnter(function (x,y) {
+        println('Entering ' + this.id);
+    });
+
+    ndOnMouseExit(function (x,y) {
+        println('Exiting ' + this.id);
+    });
+
     ndPos(120,20);
     ndDim(300, 600);
     ndBorderColor(1, 0, 0);
@@ -21,9 +37,9 @@ ndBegin('p');
 
     ndOpacity(1);
 
-    ndRegister(Event.MOUSE_LEFT_DOWN, function (x, y) {
-      println('Plugin ' + this.id + ', ' + x + ':' + y);
-    });
+//    ndRegister(Event.MOUSE_LEFT_DOWN, function (x, y) {
+//      println('Plugin ' + this.id + ', ' + x + ':' + y);
+//    });
 
     ndBegin('c1');
         ndPos(150,100);
