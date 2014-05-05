@@ -4,4 +4,6 @@ function SysListener_onTick() {
     blRender(Nody.root, d,[0,0]);
 
 	d.swap();
+
+	ndFire(Event.TICK);
 }

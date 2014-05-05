@@ -1,3 +1,4 @@
+include('nody_plugin');
 include('nody_event');
 include('nody_listeners');
 include('nody_mouse');
@@ -73,7 +74,6 @@ function ndBegin(id) {
     Nody._nodeById[id] = Nody._curNode;
 }
 
-
 function ndById(id) {
     return Nody._nodeById[id];
 }
@@ -126,8 +126,12 @@ function ndTextPos(x, y) {
 }
 
 function ndEnd() {
-    Nody._nodeStack.pop();
-    Nody._curNode = ndPeek();
+   var newKid = Nody._curNode;
+
+   Nody._nodeStack.pop();
+   Nody._curNode = ndPeek();
+
+   ndFireNode(newKid.parent, Event.KID_ADD, newKid);
 }
 
 function ndFindNodeAt(x,y) {

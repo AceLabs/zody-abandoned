@@ -30,4 +30,3 @@ function MouseListener_onLeftUp(x, y) {
 
    Nody._node_mouseLeftDown = null;
 }
-

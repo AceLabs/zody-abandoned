@@ -1,5 +1,8 @@
 var Event = {
-     MOUSE_MOVE:       'MOUSE_MOVE'
+     TICK:       'TICK'
+   , KID_ADD:       'KID_ADD'
+
+   , MOUSE_MOVE:       'MOUSE_MOVE'
    , MOUSE_LEFT_DOWN:  'MOUSE_LEFT_DOWN'
    , MOUSE_LEFT_UP:    'MOUSE_LEFT_UP'
 
@@ -9,7 +12,10 @@ var Event = {
 };
 
 var Registry = {
-     MOUSE_MOVE:        {} // callbacks by id
+     TICK:        {} // callbacks by id
+   , KID_ADD:        {} // callbacks by id
+
+   , MOUSE_MOVE:        {} // callbacks by id
    , MOUSE_LEFT_DOWN:   {} // callbacks by id
    , MOUSE_LEFT_UP:     {} // callbacks by id
 
@@ -17,6 +23,14 @@ var Registry = {
    , MOUSE_EXIT:  {} // callbacks by id
    , MOUSE_LEFT_CLICK:  {} // callbacks by id
 };
+
+function ndOnTick(cb) {
+    ndRegister(Event.TICK, cb);
+}
+
+function ndOnKidAdd(cb) {
+    ndRegister(Event.KID_ADD, cb);
+}
 
 function ndOnMouseExit(cb) {
     ndRegister(Event.MOUSE_EXIT, cb);
@@ -66,6 +80,19 @@ function ndFireNode(node, event) {
       for (var i = 0; i < callbacks.length; i++) {
          var cb = callbacks[i];
          cb.call(node, x, y);
+      }
+   }
+}
+
+function ndFire(event) {
+   var callbacksByNodeId = Registry[event];
+
+   for (var nodeId in callbacksByNodeId) {
+      var callbacks = callbacksByNodeId[nodeId];
+
+      for (var i = 0; i < callbacks.length; i++) {
+         var cb = callbacks[i];
+         cb.call(node);
       }
    }
 }
