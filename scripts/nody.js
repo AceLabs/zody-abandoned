@@ -50,6 +50,10 @@ function ndThis() {
    return Nody._curNode;
 }
 
+function ndVar(name, value) {
+   Nody._curNode[name] = value;
+}
+
 function ndBegin(id) {
     id = id || ndNextId();
 
@@ -138,3 +142,18 @@ function ndFindNodeAt(x,y) {
     return _ndFindNodeAt(x,y,node,screenRegion);
 }
 
+function ndGetParentPos(node) {
+   if (node.parent == null)
+      return [0,0];
+
+   return ndGetPos(node.parent);
+}
+
+function ndGetPos(node) {
+   if (node.parent == null)
+      return [node.x, node.y];
+
+   var p = ndGetPos(node.parent);
+
+   return [node.x + p[0], node.y + p[1]];
+}
