@@ -1,3 +1,4 @@
+include('nody/nody_init');
 include('nody/nody_plugin');
 include('nody/nody_event');
 include('nody/nody_event_value');
@@ -6,28 +7,7 @@ include('nody/nody_listeners');
 include('nody/nody_private');
 
 var ND_NODY = {
-   root: {
-      id: 'root',
-      x: 0,
-      y: 0,
-      w: 1024,
-      h: 775,
-      borderColor: [0, 0, 1],
-      color: [0, 0, 0.3],
-      textColor: [.9, 0.9, 0.9],
-      text: 'This is root',
-      textX: 20,
-      textY: 20,
-      fontName: 'courier',
-      fontStyle: 'default',
-      fontSize: 20,
-      opacity: 1,
-      kids: [],
-      nudgeX: 0,
-      nudgeY: 0,
-      clipped: true,
-      clipPadding: 0
-   },
+   root: null,
 
    _nodeStack: [],
    _nodeById: {},
@@ -48,9 +28,6 @@ function ndPeek() {
     return ND_NODY._nodeStack[ ND_NODY._nodeStack.length - 1 ];
 }
 
-ND_NODY._nodeStack.push(ND_NODY.root);
-ND_NODY._curNode = ndPeek();
-
 function ndThis() {
    return ND_NODY._curNode;
 }
@@ -61,6 +38,28 @@ function ndVar(name, value) {
 
 function ndNew() {
    return {
+        id: null
+      , clipped: true
+      , nudgeX: 0
+      , nudgeY: 0
+      , parent: null
+      , kids: []
+      , clipPadding: 0,
+
+      y: 0,
+      w: 0,
+      h: 0,
+      borderColor: [0, 0, 1],
+      color: [0, 0, 0.3],
+      textColor: [.9, 0.9, 0.9],
+      text: 'This is root',
+      textX: 20,
+      textY: 20,
+      fontName: 'courier',
+      fontStyle: 'default',
+      fontSize: 20,
+      opacity: 1,
+
       set x(i){
          var orig = this._x;
          var mod = ndFireValue(ValueEvent.ON_X, this, orig, i);
@@ -74,8 +73,6 @@ function ndNew() {
 
       get x(){ return this._x; }
 
-      , nudgeX: 0
-      , nudgeY: 0
    };
 }
 
@@ -94,7 +91,6 @@ function ndBegin(id) {
     ND_NODY._nodeStack.push(ND_NODY._curNode);
 
     ND_NODY._curNode.id = id;
-    ND_NODY._curNode.kids = [];
 
     ND_NODY._nodeById[id] = ND_NODY._curNode;
 }
