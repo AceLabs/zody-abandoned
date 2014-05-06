@@ -8,7 +8,7 @@ ndBegin('p');
    ndPos(120,20);
    ndDim(300, 600);
    ndBorderColor(1, 0, 0);
-   ndClipPadding(1);
+   ndClipPadding(0);
    ndColor(.3, 0, 0);
 
    ndTextColor(.9, 0, 0);
@@ -51,8 +51,8 @@ ndBegin('p');
       ndFontSize(15);
       ndOpacity(1);
       ndClipped(false);
+
       ndPlugin('draggable', 'drag');
-      ndClipped(false);
    ndEnd();
 
 ndEnd();

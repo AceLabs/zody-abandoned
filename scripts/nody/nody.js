@@ -45,21 +45,24 @@ function ndNew(parent, id) {
       , nudgeY: 0
       , parent: null
       , kids: []
-      , clipPadding: 0,
+      , clipPadding: 0
 
-      y: 0,
-      w: 0,
-      h: 0,
-      borderColor: [0, 0, 1],
-      color: [0, 0, 0.3],
-      textColor: [.9, 0.9, 0.9],
-      text: 'This is root',
-      textX: 20,
-      textY: 20,
-      fontName: 'courier',
-      fontStyle: 'default',
-      fontSize: 20,
-      opacity: 1,
+      , y: 0
+      , w: 0
+      , h: 0
+
+      , borderColor: [1, 1, 1]
+      , color: [1, 1, 1]
+
+      , textColor: [1, 1, 1]
+      , text: null
+      , textX: 0
+      , textY: 0
+      , fontName: 'courier'
+      , fontStyle: 'default'
+      , fontSize: 10
+
+      , opacity: 1,
 
       set x(i){
          var orig = this._x;
@@ -98,16 +101,16 @@ function ndById(id) {
 }
 
 function ndClipPadding(padding) {
-    Nody._curNode.clipPadding = padding;
+    ND_NODY._curNode.clipPadding = padding;
 }
 
 function ndClipped(clipped) {
-    Nody._curNode.clipped = clipped;
+    ND_NODY._curNode.clipped = clipped;
 }
 
 function ndNudge(nudgeX, nudgeY) {
-    Nody._curNode.nudgeX = nudgeX;
-    Nody._curNode.nudgeY = nudgeY;
+    ND_NODY._curNode.nudgeX = nudgeX;
+    ND_NODY._curNode.nudgeY = nudgeY;
 }
 
 function ndPos(x, y) {
