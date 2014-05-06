@@ -1,14 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d20da618-b9be-4489-bcc8-1caf269371b8" name="Default" comment="" />
+    <list default="true" id="d20da618-b9be-4489-bcc8-1caf269371b8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/.name" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/.name" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/CCanvas.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/CCanvas.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/CWindow.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/CWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/Draw.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/Draw.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/font/FontKey.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/font/FontKey.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/font/FontManager.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/font/FontManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/device/GraphicsDevice.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/device/GraphicsDevice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/Hellina.iml" afterPath="$PROJECT_DIR$/../../hellina/prj/Hellina.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/Hellina.iml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/Hellina.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/libraries/Hellina.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/libraries/Hellina.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/intf/IDraw.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/intf/IDraw.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/device/IGraphicsDevice.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/device/IGraphicsDevice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/device/IKeyDevice.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/device/IKeyDevice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/listener/IKeyListener.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/listener/IKeyListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/device/IMouseDevice.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/device/IMouseDevice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/listener/IMouseListener.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/listener/IMouseListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/intf/IPlatform.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/intf/IPlatform.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/listener/ITickListener.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/listener/ITickListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/listener/IWindowListener.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/listener/IWindowListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/src/js_ellina/init/JsCallbackInvoker.java" afterPath="$PROJECT_DIR$/../../js_ellina/src/js_ellina/init/JsCallbackInvoker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/JsEllina.iml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/JsEllina.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/src/js_ellina/init/JsEllina.java" afterPath="$PROJECT_DIR$/../../js_ellina/src/js_ellina/init/JsEllina.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/src/js_ellina/init/JsInvoker.java" afterPath="$PROJECT_DIR$/../../js_ellina/src/js_ellina/init/JsInvoker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/device/KeyDevice.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/device/KeyDevice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/device/MouseDevice.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/device/MouseDevice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/Platform.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/Platform.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/adt/Point.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/adt/Point.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/sample/Run.java" afterPath="$PROJECT_DIR$/../../hellina/src/sample/Run.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/src/js_ellina/Run.java" afterPath="$PROJECT_DIR$/../../js_ellina/src/js_ellina/Run.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/TickThread.java" afterPath="$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina_j2d/TickThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/test/asserts.js" afterPath="$PROJECT_DIR$/../scripts/test/asserts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/bellina/bellina.js" afterPath="$PROJECT_DIR$/../scripts/bellina/bellina.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/bellina/bellina_private.js" afterPath="$PROJECT_DIR$/../scripts/bellina/bellina_private.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/dictionaries/dna.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/dictionaries/dna.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/plugin/draggable.js" afterPath="$PROJECT_DIR$/../scripts/plugin/draggable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/src/sample/main.js" afterPath="$PROJECT_DIR$/../../js_ellina/src/sample/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/main.js" afterPath="$PROJECT_DIR$/../scripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main.js" afterPath="$PROJECT_DIR$/../src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/src/sample/mouse.js" afterPath="$PROJECT_DIR$/../../js_ellina/src/sample/mouse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/nody/nody.js" afterPath="$PROJECT_DIR$/../scripts/nody/nody.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/nody.js" afterPath="$PROJECT_DIR$/../src/nody.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/nody/nody_event.js" afterPath="$PROJECT_DIR$/../scripts/nody/nody_event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/nody/nody_event_value.js" afterPath="$PROJECT_DIR$/../scripts/nody/nody_event_value.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/nody/nody_listeners.js" afterPath="$PROJECT_DIR$/../scripts/nody/nody_listeners.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/nody/nody_mouse.js" afterPath="$PROJECT_DIR$/../scripts/nody/nody_mouse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/nody/nody_plugin.js" afterPath="$PROJECT_DIR$/../scripts/nody/nody_plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/nody/nody_private.js" afterPath="$PROJECT_DIR$/../scripts/nody/nody_private.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/test/nody_test.js" afterPath="$PROJECT_DIR$/../scripts/test/nody_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/test/nody_test_ndGetClippedRegion.js" afterPath="$PROJECT_DIR$/../scripts/test/nody_test_ndGetClippedRegion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prj.iml" afterPath="$PROJECT_DIR$/prj.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/projectCodeStyle.xml" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/projectCodeStyle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/projectCodeStyle.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/projectCodeStyle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/projectCodeStyle.xml" afterPath="$PROJECT_DIR$/.idea/projectCodeStyle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/src/js_ellina/js/sys_class.js" afterPath="$PROJECT_DIR$/../../js_ellina/src/js_ellina/js/sys_class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/src/js_ellina/js/sys_common.js" afterPath="$PROJECT_DIR$/../../js_ellina/src/js_ellina/js/sys_common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/plugin/vertical.js" afterPath="$PROJECT_DIR$/../scripts/plugin/vertical.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/plugin/vibrate.js" afterPath="$PROJECT_DIR$/../scripts/plugin/vibrate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="nody.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399230527429" ignored="false" />
-    <file path="/main.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399273278843" ignored="false" />
+    <file path="/fragment.java" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399350836813" ignored="false" />
+    <file path="/main.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399350883272" ignored="false" />
     <file path="/bellina.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399273658027" ignored="false" />
     <file path="/nody.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399273246819" ignored="false" />
-    <file path="/nody_mouse.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399264151266" ignored="false" />
+    <file path="/nody_mouse.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399350577512" ignored="false" />
     <file path="/nody_listeners.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399264617827" ignored="false" />
     <file path="/asserts.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399237894548" ignored="false" />
     <file path="/nody_private.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399237296079" ignored="false" />
@@ -17,11 +110,12 @@
     <file path="/nody_test.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399273587507" ignored="false" />
     <file path="/nody_event.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399266630227" ignored="false" />
     <file path="/a.dummy" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399267411787" ignored="false" />
-    <file path="/draggable.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399258015531" ignored="false" />
+    <file path="/draggable.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399351168840" ignored="false" />
     <file path="/nody_plugin.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399257790195" ignored="false" />
     <file path="/vertical.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399261241635" ignored="false" />
     <file path="/vibrate.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399264650291" ignored="false" />
     <file path="/nody_event_value.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399273233380" ignored="false" />
+    <file path="/Dummy.txt" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399348817474" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +130,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -72,7 +167,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -82,10 +176,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="nody_test.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../scripts/test/nody_test.js">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+            <state line="41" column="38" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,10 +203,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../scripts/main.js">
+      <file leaf-file-name="nody_mouse.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../scripts/nody/nody_mouse.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="169" selection-end="169" vertical-scroll-proportion="0.17685306">
+            <state line="9" column="40" selection-start="163" selection-end="163" vertical-scroll-proportion="-3.06">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draggable.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../scripts/plugin/draggable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="38" selection-start="389" selection-end="389" vertical-scroll-proportion="0.2652796">
               <folding />
             </state>
           </provider>
@@ -125,11 +228,17 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../scripts/nody_plugin.js" />
-        <option value="$PROJECT_DIR$/../scripts/plugin/draggable.js" />
         <option value="$PROJECT_DIR$/../scripts/nody.js" />
         <option value="$PROJECT_DIR$/../scripts/plugin/vertical.js" />
         <option value="$PROJECT_DIR$/../scripts/nody_mouse.js" />
@@ -140,10 +249,12 @@
         <option value="$PROJECT_DIR$/../scripts/plugin/vibrate.js" />
         <option value="$PROJECT_DIR$/../scripts/nody/nody_event_value.js" />
         <option value="$PROJECT_DIR$/../scripts/nody/nody.js" />
-        <option value="$PROJECT_DIR$/../scripts/main.js" />
         <option value="$PROJECT_DIR$/../scripts/test/nody_test.js" />
         <option value="$PROJECT_DIR$/../scripts/bellina/bellina_private.js" />
         <option value="$PROJECT_DIR$/../scripts/bellina/bellina.js" />
+        <option value="$PROJECT_DIR$/../scripts/nody/nody_mouse.js" />
+        <option value="$PROJECT_DIR$/../scripts/main.js" />
+        <option value="$PROJECT_DIR$/../scripts/plugin/draggable.js" />
       </list>
     </option>
   </component>
@@ -169,7 +280,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -195,6 +306,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,72 +324,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="prj" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nody" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js_ellina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nody" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js_ellina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nody" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js_ellina" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="init" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -413,8 +460,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,7 +467,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="editing.templates" />
+    <property name="options.lastSelected" value="editor" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../scripts" />
@@ -432,9 +477,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -500,7 +545,7 @@
     <configuration default="false" name="Run" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="js_ellina.Run" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../scripts" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../scripts/main.js" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -551,26 +596,26 @@
     <frame x="58" y="-4" width="1866" height="1208" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956687" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.81073445" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.74858755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25141242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25141242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956687" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -638,69 +683,58 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../scripts/test/nody_test_ndGetClippedRegion.js">
+    <entry file="file://$PROJECT_DIR$/../scripts/bellina/bellina.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+        <state line="1" column="32" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scripts/test/nody_test_ndGetClippedRegion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../js_ellina/src/js_ellina/js/sys_common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/plugin/vertical.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../js_ellina/src/js_ellina/init/JsEllina.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="60" selection-start="1350" selection-end="1350" vertical-scroll-proportion="25.32">
-          <folding>
-            <element signature="class#1542:2393" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../scripts/plugin/draggable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="42" selection-start="646" selection-end="646" vertical-scroll-proportion="0.46423927">
-          <folding />
-        </state>
+        <state line="33" column="60" selection-start="1350" selection-end="1350" vertical-scroll-proportion="25.32" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/nody/nody_event.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/nody/nody.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="25" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.55266577">
-          <folding />
-        </state>
+        <state line="67" column="25" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.55266577" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/plugin/vibrate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="257" selection-end="257" vertical-scroll-proportion="0.24317296">
-          <folding />
-        </state>
+        <state line="11" column="8" selection-start="257" selection-end="257" vertical-scroll-proportion="0.24317296" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/nody/nody_event_value.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="127" selection-end="127" vertical-scroll-proportion="0.1326398">
-          <folding />
-        </state>
+        <state line="6" column="7" selection-start="127" selection-end="127" vertical-scroll-proportion="0.1326398" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/test/nody_test.js">
@@ -726,7 +760,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="169" selection-end="169" vertical-scroll-proportion="0.17685306">
+        <state line="41" column="38" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scripts/nody/nody_mouse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="40" selection-start="163" selection-end="163" vertical-scroll-proportion="-3.06">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scripts/plugin/draggable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="389" selection-end="389" vertical-scroll-proportion="0.2652796">
           <folding />
         </state>
       </provider>

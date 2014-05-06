@@ -1,4 +1,4 @@
-include("bellina");
+include("bellina/bellina");
 
 //include("asserts"); include("test/nody_test"); nody_test();
 
@@ -19,12 +19,12 @@ ndBegin('p');
 
    ndPlugin('draggable', 'drag');
 
-   ndPlugin('vibrate', 'vibrate');
+//   ndPlugin('vibrate', 'vibrate');
 
-   ndRegisterValue(ValueEvent.ON_X, ndThis(), function(tnode, oldv, newv) {
+//   ndRegisterValue(ValueEvent.ON_X, ndThis(), function(tnode, oldv, newv) {
       //println(oldv + ', ' + newv);
-      return newv + 2;
-   });
+//      return newv + 2;
+//   });
 
    ndBegin('c1');
       ndPos(150,100);
@@ -38,6 +38,7 @@ ndBegin('p');
       ndFontStyle('default');
       ndFontSize(15);
       ndOpacity(1);
+//      ndPlugin('draggable', 'drag');
    ndEnd();
 
    ndBegin('c2');
@@ -52,6 +53,7 @@ ndBegin('p');
       ndFontStyle('default');
       ndFontSize(15);
       ndOpacity(1);
+//      ndPlugin('draggable', 'drag');
    ndEnd();
 
 ndEnd();

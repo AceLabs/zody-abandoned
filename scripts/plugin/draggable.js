@@ -10,10 +10,14 @@ function draggable_init() {
       space.diff = [x-screenPos[0], y-screenPos[1]];
       space.origScreen = [x,y];
       space.origScreenN = [this.x,this.y];
+      ndCaptureMouse(this);
    });
 
    ndRegister(Event.MOUSE_LEFT_UP, function (x, y) {
-      space.grab = false;
+      if (space.grab) {
+         space.grab = false;
+         ndReleaseMouse(this);
+      }
    });
 
    ndRegister(Event.MOUSE_MOVE, function (x, y) {
