@@ -10,6 +10,7 @@ var ND_NODY = {
    root: null,
 
    _nodeStack: [],
+   _curNode: null,
    _nodeById: {},
 
    _nextId: 0
@@ -36,9 +37,9 @@ function ndVar(name, value) {
    ND_NODY._curNode[name] = value;
 }
 
-function ndNew() {
-   return {
-        id: null
+function ndNew(parent, id) {
+   var node = {
+        id: id
       , clipped: true
       , nudgeX: 0
       , nudgeY: 0
@@ -74,25 +75,23 @@ function ndNew() {
       get x(){ return this._x; }
 
    };
+
+   node.parent = parent;
+
+   if (parent != null)
+      parent.kids.push(node);
+
+   return node;
 }
 
 function ndBegin(id) {
-    id = id || ndNextId();
+   id = id || ndNextId();
 
-    if (ND_NODY._curNode != null) {
-        var newNode = ndNew();
-        newNode.parent = ND_NODY._curNode;
-        ND_NODY._curNode.kids.push(newNode);
-        ND_NODY._curNode = newNode;
-    }
-    else
-        ND_NODY._curNode = ndNew();
+   ND_NODY._curNode = ndNew(ND_NODY._curNode, id);
 
-    ND_NODY._nodeStack.push(ND_NODY._curNode);
+   ND_NODY._nodeStack.push(ND_NODY._curNode);
 
-    ND_NODY._curNode.id = id;
-
-    ND_NODY._nodeById[id] = ND_NODY._curNode;
+   ND_NODY._nodeById[id] = ND_NODY._curNode;
 }
 
 function ndById(id) {

@@ -50,6 +50,7 @@ ndBegin('p');
       ndFontSize(15);
       ndOpacity(1);
       ndPlugin('draggable', 'drag');
+      ndClipped(false);
    ndEnd();
 
 ndEnd();
