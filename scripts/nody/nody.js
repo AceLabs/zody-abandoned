@@ -11,6 +11,8 @@ var Nody = {
       x: 0, y: 0, nudgeX: 0, nudgeY: 0,
       w: 1024, h: 775,
       borderColor: [0, 0, 1],
+      clipped: true,
+      clipPadding: 0,
       color: [0, 0, 0.3],
       textColor: [.9, 0.9, 0.9],
       text: 'This is root',
@@ -73,6 +75,9 @@ function ndNew() {
 
       , nudgeX: 0
       , nudgeY: 0
+
+      , clipped: true
+      , clipPadding: 0
    };
 }
 
@@ -98,6 +103,19 @@ function ndBegin(id) {
 
 function ndById(id) {
     return Nody._nodeById[id];
+}
+
+function ndClipPadding(padding) {
+    Nody._curNode.clipPadding = padding;
+}
+
+function ndClipped(clipped) {
+    Nody._curNode.clipped = clipped;
+}
+
+function ndNudge(nudgeX, nudgeY) {
+    Nody._curNode.nudgeX = nudgeX;
+    Nody._curNode.nudgeY = nudgeY;
 }
 
 function ndPos(x, y) {
