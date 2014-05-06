@@ -2,6 +2,8 @@ include("bellina/bellina");
 
 //include("asserts"); include("test/nody_test"); nody_test();
 
+ndInit();
+
 ndBegin('p');
    ndPos(120,20);
    ndDim(300, 600);
@@ -50,6 +52,7 @@ ndBegin('p');
       ndOpacity(1);
       ndClipped(false);
       ndPlugin('draggable', 'drag');
+      ndClipped(false);
    ndEnd();
 
 ndEnd();
