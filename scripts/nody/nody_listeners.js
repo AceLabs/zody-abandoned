@@ -1,7 +1,7 @@
 function SysListener_onTick() {
     var d = sys_platform.getGraphicsDevice().getIDraw();
 
-    blRender(Nody.root, d,[0,0]);
+    blRender(ND_NODY.root, d,[0,0]);
 
 	d.swap();
 

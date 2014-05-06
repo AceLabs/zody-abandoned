@@ -4,7 +4,6 @@
     <list default="true" id="d20da618-b9be-4489-bcc8-1caf269371b8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/.gitignore" afterPath="$PROJECT_DIR$/../../hellina/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/.gitignore" afterPath="$PROJECT_DIR$/../../js_ellina/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/.name" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/prj/.idea/.name" afterPath="$PROJECT_DIR$/../../js_ellina/prj/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
@@ -101,10 +100,10 @@
     <ignored path="nody.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399350836813" ignored="false" />
-    <file path="/main.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399350883272" ignored="false" />
-    <file path="/bellina.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399352180688" ignored="false" />
-    <file path="/nody.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399351974776" ignored="false" />
-    <file path="/nody_mouse.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399350577512" ignored="false" />
+    <file path="/main.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399353694312" ignored="false" />
+    <file path="/bellina.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399356840216" ignored="false" />
+    <file path="/nody.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399357546138" ignored="false" />
+    <file path="/nody_mouse.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399357910793" ignored="false" />
     <file path="/nody_listeners.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399264617827" ignored="false" />
     <file path="/asserts.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399237894548" ignored="false" />
     <file path="/nody_private.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399237296079" ignored="false" />
@@ -112,7 +111,7 @@
     <file path="/nody_test_ndGetClippedRegion.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399237430517" ignored="false" />
     <file path="/nody_test.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399273587507" ignored="false" />
     <file path="/nody_event.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399266630227" ignored="false" />
-    <file path="/a.dummy" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399351910167" ignored="false" />
+    <file path="/a.dummy" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399357897062" ignored="false" />
     <file path="/draggable.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399351168840" ignored="false" />
     <file path="/nody_plugin.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399257790195" ignored="false" />
     <file path="/vertical.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399261241635" ignored="false" />
@@ -179,37 +178,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../scripts/main.js">
+      <file leaf-file-name="nody.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../scripts/nody/nody.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="31" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.07093185">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vibrate.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../scripts/plugin/vibrate.js">
+      <file leaf-file-name="nody_listeners.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../scripts/nody/nody_listeners.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bellina_private.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../scripts/bellina/bellina_private.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="1" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bellina.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../scripts/bellina/bellina.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="213" selection-end="213" vertical-scroll-proportion="0.11053316">
+            <state line="3" column="20" selection-start="103" selection-end="110" vertical-scroll-proportion="-1.02">
               <folding />
             </state>
           </provider>
@@ -218,25 +199,25 @@
       <file leaf-file-name="nody_mouse.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../scripts/nody/nody_mouse.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="40" selection-start="163" selection-end="163" vertical-scroll-proportion="-3.06">
+            <state line="1" column="14" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.34">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="draggable.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../scripts/plugin/draggable.js">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="29" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+            <state line="7" column="18" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nody.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../scripts/nody/nody.js">
+      <file leaf-file-name="bellina.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../scripts/bellina/bellina.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="14" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.0">
+            <state line="36" column="0" selection-start="997" selection-end="997" vertical-scroll-proportion="-24.48">
               <folding />
             </state>
           </provider>
@@ -260,7 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../scripts/nody.js" />
         <option value="$PROJECT_DIR$/../scripts/plugin/vertical.js" />
         <option value="$PROJECT_DIR$/../scripts/nody_mouse.js" />
         <option value="$PROJECT_DIR$/../scripts/nody_listeners.js" />
@@ -270,12 +250,13 @@
         <option value="$PROJECT_DIR$/../scripts/nody/nody_event_value.js" />
         <option value="$PROJECT_DIR$/../scripts/test/nody_test.js" />
         <option value="$PROJECT_DIR$/../scripts/bellina/bellina_private.js" />
-        <option value="$PROJECT_DIR$/../scripts/nody/nody_mouse.js" />
         <option value="$PROJECT_DIR$/../scripts/plugin/draggable.js" />
-        <option value="$PROJECT_DIR$/../scripts/nody/nody.js" />
-        <option value="$PROJECT_DIR$/../scripts/main.js" />
         <option value="$PROJECT_DIR$/../scripts/plugin/vibrate.js" />
         <option value="$PROJECT_DIR$/../scripts/bellina/bellina.js" />
+        <option value="$PROJECT_DIR$/../scripts/main.js" />
+        <option value="$PROJECT_DIR$/../scripts/nody/nody_listeners.js" />
+        <option value="$PROJECT_DIR$/../scripts/nody/nody.js" />
+        <option value="$PROJECT_DIR$/../scripts/nody/nody_mouse.js" />
       </list>
     </option>
   </component>
@@ -376,6 +357,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amortaza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nody" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amortaza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hellina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nody" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amortaza" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hellina" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -614,7 +647,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="-4" width="1866" height="1208" extended-state="0" />
+    <frame x="58" y="-4" width="1866" height="1208" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -628,10 +661,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.81073445" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24914286" sideWeight="0.7466793" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.74858755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1589404" sideWeight="0.74858755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25141242" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -704,20 +737,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../scripts/bellina/bellina.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="32" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/test/nody_test_ndGetClippedRegion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="21" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" />
@@ -755,51 +774,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../scripts/nody/nody_mouse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="163" selection-end="163" vertical-scroll-proportion="-3.06">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/plugin/draggable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="29" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../scripts/nody/nody.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="14" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="31" selection-start="1138" selection-end="1138" vertical-scroll-proportion="0.0">
+        <state line="9" column="29" selection-start="263" selection-end="263" vertical-scroll-proportion="0.1989597">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/plugin/vibrate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.1326398">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/bellina/bellina_private.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
+        <state line="30" column="1" selection-start="951" selection-end="951" vertical-scroll-proportion="0.66319895">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../hellina/src/com/github/amortaza/hellina/intf/IDraw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="31" selection-start="2239" selection-end="2261" vertical-scroll-proportion="0.6611342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../scripts/bellina/bellina.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="213" selection-end="213" vertical-scroll-proportion="0.11053316">
+        <state line="36" column="0" selection-start="997" selection-end="997" vertical-scroll-proportion="-24.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scripts/nody/nody_listeners.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="103" selection-end="110" vertical-scroll-proportion="-1.02">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scripts/nody/nody_mouse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="14" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.34">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scripts/nody/nody.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.07093185">
           <folding />
         </state>
       </provider>
