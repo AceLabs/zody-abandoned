@@ -19,13 +19,6 @@ ndBegin('p');
 
    ndPlugin('draggable', 'drag');
 
-//   ndPlugin('vibrate', 'vibrate');
-
-//   ndRegisterValue(ValueEvent.ON_X, ndThis(), function(tnode, oldv, newv) {
-      //println(oldv + ', ' + newv);
-//      return newv + 2;
-//   });
-
    ndBegin('c1');
       ndPos(150,100);
       ndDim(200, 150);
@@ -38,7 +31,8 @@ ndBegin('p');
       ndFontStyle('default');
       ndFontSize(15);
       ndOpacity(1);
-//      ndPlugin('draggable', 'drag');
+      ndPlugin('vibrate', 'vibrate');
+      ndPlugin('draggable', 'drag');
    ndEnd();
 
    ndBegin('c2');
@@ -53,7 +47,7 @@ ndBegin('p');
       ndFontStyle('default');
       ndFontSize(15);
       ndOpacity(1);
-//      ndPlugin('draggable', 'drag');
+      ndPlugin('draggable', 'drag');
    ndEnd();
 
 ndEnd();

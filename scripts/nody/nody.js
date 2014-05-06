@@ -8,7 +8,7 @@ include('nody/nody_private');
 var Nody = {
    root: {
       id: 'root',
-      x: 0, y: 0,
+      x: 0, y: 0, nudgeX: 0, nudgeY: 0,
       w: 1024, h: 775,
       borderColor: [0, 0, 1],
       color: [0, 0, 0.3],
@@ -16,9 +16,9 @@ var Nody = {
       text: 'This is root',
       textX: 20,
       textY: 20,
-      fontname: 'courier',
-      fontstyle: 'default',
-      fontsize: 20,
+      fontName: 'courier',
+      fontStyle: 'default',
+      fontSize: 20,
       opacity: 1,
       kids: []
    },
@@ -70,6 +70,9 @@ function ndNew() {
       },
 
       get x(){ return this._x; }
+
+      , nudgeX: 0
+      , nudgeY: 0
    };
 }
 

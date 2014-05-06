@@ -2,7 +2,7 @@ include('nody/nody');
 include('bellina/bellina_private');
 
 function blRender(node, d, parentScreenPos) {
-    var screenPos = [node.x + parentScreenPos[0], node.y + parentScreenPos[1]];
+    var screenPos = [node.x + node.nudgeX + parentScreenPos[0], node.y + node.nudgeY + parentScreenPos[1]];
 
     d.pushClipRegion( screenPos[0], screenPos[1], node.w, node.h );
 
