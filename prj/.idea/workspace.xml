@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d20da618-b9be-4489-bcc8-1caf269371b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../scripts/nody/nody_init.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/.gitignore" afterPath="$PROJECT_DIR$/../../hellina/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../js_ellina/.gitignore" afterPath="$PROJECT_DIR$/../../js_ellina/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../hellina/prj/.idea/.name" afterPath="$PROJECT_DIR$/../../hellina/prj/.idea/.name" />
@@ -66,6 +65,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/nody.js" afterPath="$PROJECT_DIR$/../src/nody.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/nody/nody_event.js" afterPath="$PROJECT_DIR$/../scripts/nody/nody_event.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/nody/nody_event_value.js" afterPath="$PROJECT_DIR$/../scripts/nody/nody_event_value.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/nody/nody_init.js" afterPath="$PROJECT_DIR$/../scripts/nody/nody_init.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/nody/nody_listeners.js" afterPath="$PROJECT_DIR$/../scripts/nody/nody_listeners.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/nody/nody_mouse.js" afterPath="$PROJECT_DIR$/../scripts/nody/nody_mouse.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../scripts/nody/nody_plugin.js" afterPath="$PROJECT_DIR$/../scripts/nody/nody_plugin.js" />
@@ -119,7 +119,7 @@
     <file path="/vibrate.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399352061318" ignored="false" />
     <file path="/nody_event_value.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399273233380" ignored="false" />
     <file path="/Dummy.txt" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399348817474" ignored="false" />
-    <file path="/nody_init.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399358787186" ignored="false" />
+    <file path="/nody_init.js" changelist="d20da618-b9be-4489-bcc8-1caf269371b8" time="1399359767432" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,19 +180,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="nody.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="nody.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../scripts/nody/nody.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="21" selection-start="776" selection-end="776" vertical-scroll-proportion="-1.7">
+            <state line="41" column="21" selection-start="776" selection-end="776" vertical-scroll-proportion="-0.83254343">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nody_init.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="nody_init.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../scripts/nody/nody_init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="81" selection-start="261" selection-end="261" vertical-scroll-proportion="0.1969112">
+            <state line="15" column="34" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -265,9 +265,9 @@
         <option value="$PROJECT_DIR$/../scripts/nody/nody_listeners.js" />
         <option value="$PROJECT_DIR$/../scripts/nody/nody_mouse.js" />
         <option value="$PROJECT_DIR$/../scripts/main.js" />
-        <option value="$PROJECT_DIR$/../scripts/nody/nody_init.js" />
         <option value="$PROJECT_DIR$/../scripts/bellina/bellina.js" />
         <option value="$PROJECT_DIR$/../scripts/nody/nody.js" />
+        <option value="$PROJECT_DIR$/../scripts/nody/nody_init.js" />
       </list>
     </option>
   </component>
@@ -675,8 +675,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24914286" sideWeight="0.7466793" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1589404" sideWeight="0.6026365" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39736345" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1589404" sideWeight="0.66760826" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3323917" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -838,16 +838,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../scripts/nody/nody.js">
+    <entry file="file://$PROJECT_DIR$/../scripts/nody/nody_init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="21" selection-start="776" selection-end="776" vertical-scroll-proportion="-1.7">
+        <state line="15" column="34" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../scripts/nody/nody_init.js">
+    <entry file="file://$PROJECT_DIR$/../scripts/nody/nody.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="81" selection-start="261" selection-end="261" vertical-scroll-proportion="0.1969112">
+        <state line="41" column="21" selection-start="776" selection-end="776" vertical-scroll-proportion="-0.83254343">
           <folding />
         </state>
       </provider>

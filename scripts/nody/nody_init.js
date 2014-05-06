@@ -1,28 +1,17 @@
 function ndInit() {
-   ND_NODY.root = {
-      id: 'root',
-      x: 0,
-      y: 0,
-      w: 1024,
-      h: 775,
-      borderColor: [0, 0, 1],
-      color: [0, 0, 0.3],
-      textColor: [.9, 0.9, 0.9],
-      text: 'This is root',
-      textX: 20,
-      textY: 20,
-      fontName: 'courier',
-      fontStyle: 'default',
-      fontSize: 20,
-      opacity: 1,
-      kids: [],
-      nudgeX: 0,
-      nudgeY: 0,
-      clipped: true,
-      clipPadding: 0,
-      parent: null
-   };
+   ndBegin('root');
+      ndPos(0,0);
+      ndDim(1024,775);
+      ndBorderColor(0, 0, 1);
+      ndColor(0, 0, 0.3);
+      ndTextColor(.9, 0.9, 0.9);
+      ndText('This is root');
+      ndTextPos(20,20);
+      ndFontName('courier');
+      ndFontStyle('default');
+      ndFontSize(20);
+      ndOpacity(1);
 
-   ND_NODY._nodeStack.push(ND_NODY.root);
-   ND_NODY._curNode = ndPeek();
+      ND_NODY.root = ndThis();
+      // Do not put ndEnd() here!!
 }
