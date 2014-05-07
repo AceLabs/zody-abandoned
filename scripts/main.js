@@ -20,7 +20,7 @@ ndBegin('p');
 
 //   ndOpacity(1);
 
-   ndPadding(100,200);
+   ndPadding(0,0);
 
 
    ndPlugin('draggable', 'drag');
@@ -36,12 +36,13 @@ ndBegin('p');
       ndFontName('courier');
       ndFontStyle('default');
       ndFontSize(15);
-      ndOpacity(1);
+//      ndOpacity(1);
       ndPlugin('vibrate', 'vibrate');
       ndPlugin('draggable', 'drag');
    ndEnd();
 
    ndBegin('c2');
+      ndClipPadding(1);
       ndPos(150,300);
       ndDim(200, 150);
       ndBorderColor(0, 1, 0);
@@ -56,6 +57,39 @@ ndBegin('p');
       ndClipped(false);
 
       ndPlugin('draggable', 'drag');
+
+
+      ndBegin('c3');
+         ndPos(50,70);
+         ndDim(125, 90);
+         ndBorderColor(0, 1, 1);
+         ndColor(0, 0.3, .3);
+         ndTextColor(0, 0.9, 0);
+         ndText(':)');
+         ndTextPos(2, 2);
+         ndFontName('courier');
+         ndFontStyle('default');
+         ndFontSize(15);
+         ndClipped(false);
+
+         ndPlugin('draggable', 'drag');
+      ndEnd();
+
+      ndBegin('c4');
+         ndPos(120,30);
+         ndDim(80, 125);
+         ndBorderColor(1, 1, 0);
+         ndColor(0.3, 0.3, 0);
+         ndTextColor(0, 0.9, 0);
+         ndText(':(');
+         ndTextPos(2, 2);
+         ndFontName('courier');
+         ndFontStyle('default');
+         ndFontSize(15);
+
+         ndPlugin('draggable', 'drag');
+      ndEnd();
+
    ndEnd();
 
 ndEnd();

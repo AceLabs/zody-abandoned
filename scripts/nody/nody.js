@@ -5,6 +5,7 @@ include('nody/nody_event_value');
 include('nody/nody_mouse');
 include('nody/nody_listeners');
 include('nody/nody_private');
+include('nody/nody_spacial');
 
 var ND_NODY = {
    root: null,
@@ -215,10 +216,10 @@ function ndFindNodeAt(x,y) {
     //clip
     //global pos kids
 
-    var node = ND_NODY.root;
-    var screenRegion = [node.x, node.y, node.w, node.h];
+    var root = ND_NODY.root;
+    var screenRegion = [root.x, root.y, root.w, root.h];
 
-    return _ndFindNodeAt(x,y,node,screenRegion);
+    return _ndFindNodeAt(x,y,root,screenRegion,screenRegion) || root;
 }
 
 function ndGetParentPos(node) {
