@@ -18,7 +18,10 @@ ndBegin('p');
    ndFontStyle('default');
    ndFontSize(40);
 
-   ndOpacity(1);
+//   ndOpacity(1);
+
+   ndPadding(100,200);
+
 
    ndPlugin('draggable', 'drag');
 

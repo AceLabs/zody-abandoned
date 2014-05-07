@@ -40,9 +40,14 @@ function ndVar(name, value) {
 function ndNew(parent, id) {
    var node = {
         id: id
-      , clipped: true
+
       , nudgeX: 0
       , nudgeY: 0
+
+      , paddingX: 0
+      , paddingY: 0
+
+      , clipped: true
       , parent: null
       , kids: []
       , clipPadding: 0
@@ -63,7 +68,7 @@ function ndNew(parent, id) {
       , fontStyle: 'default'
       , fontSize: 10
 
-      , opacity: 1
+      // opacity: 1 for performance reasons, it is better to leave it undefined that '1' (for fully visible)
 
       // x
       , set x(newValue){
@@ -143,6 +148,11 @@ function ndNudge(nudgeX, nudgeY) {
     ND_NODY._curNode.nudgeY = nudgeY;
 }
 
+function ndPadding(paddingX, paddingY) {
+    ND_NODY._curNode.paddingX = paddingX;
+    ND_NODY._curNode.paddingY = paddingY;
+}
+
 function ndPos(x, y) {
     ND_NODY._curNode.x = x;
     ND_NODY._curNode.y = y;
@@ -196,7 +206,7 @@ function ndEnd() {
    ND_NODY._nodeStack.pop();
    ND_NODY._curNode = ndPeek();
 
-   ndFireNode(newKid.parent, Event.KID_ADD, newKid);
+//   ndFireValue(Event.KID_ADD, newKid.parent, newKid);
 }
 
 function ndFindNodeAt(x,y) {
@@ -219,10 +229,12 @@ function ndGetParentPos(node) {
 }
 
 function ndGetPos(node) {
-   if (node.parent == null)
+   var parent = node.parent;
+
+   if (parent == null)
       return [node.x, node.y];
 
-   var p = ndGetPos(node.parent);
+   var parentPos = ndGetPos(parent);
 
-   return [node.x + p[0], node.y + p[1]];
+   return [node.x + parentPos[0] + parent.paddingX, node.y + parentPos[1] +  + parent.paddingY];
 }

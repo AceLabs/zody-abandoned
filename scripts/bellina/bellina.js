@@ -42,8 +42,14 @@ function _blRender_clip_padding(node, d, screenPos) {
 
    _blDrawText(node, d, screenPos);
 
-   if (node['kids'] !== undefined)
-      _blDrawKids(node.kids, d, screenPos);
+   var paddedScreenPos;
+
+   if (node.paddingX != 0 || node.paddingY != 0)
+      paddedScreenPos = [node.paddingX + screenPos[0], node.paddingY + screenPos[1]];
+   else
+      paddedScreenPos = screenPos;
+
+   _blDrawKids(node.kids, d, paddedScreenPos);
 
    d.popClipRegion();
 
@@ -73,8 +79,14 @@ function _blRender_no_clip_padding(node, d, screenPos) {
 
    _blDrawText(node, d, screenPos);
 
-   if (node['kids'] !== undefined)
-      _blDrawKids(node.kids, d, screenPos);
+   var paddedScreenPos;
+
+   if (node.paddingX != 0 || node.paddingY != 0)
+      paddedScreenPos = [node.paddingX + screenPos[0], node.paddingY + screenPos[1]];
+   else
+      paddedScreenPos = screenPos;
+
+   _blDrawKids(node.kids, d, paddedScreenPos);
 
    if (popOpacity)
       d.popOpacity();

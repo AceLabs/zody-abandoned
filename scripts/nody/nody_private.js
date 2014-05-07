@@ -14,6 +14,7 @@ function _ndFindNodeAt(x,y,node,screenRegion) {
 function _ndNodeDim(node) {
    return {x:node.x, y:node.y, w:node.w, h:node.h};
 }
+
 function _ndIsHit(x, y, screenRegion) {
     var ishit =  x >= screenRegion[0] && y >= screenRegion[1] && x < screenRegion[0] + screenRegion[2] && y < screenRegion[1] + screenRegion[3];
 
@@ -24,13 +25,12 @@ function _ndGetClippedRegion(screenRegion, kid) {
    var regionEndX = screenRegion[0] + screenRegion[2] - 1;
    var regionEndY = screenRegion[1] + screenRegion[3] - 1;
 
-   var kidScreenX = screenRegion[0] + kid.x;
-
+   var kidScreenX = screenRegion[0] + kid.x + (kid.parent != null ? kid.parent.paddingX : 0);
 
    if (kidScreenX > regionEndX)
       return [-1,-1,0,0];
 
-   var kidScreenY = screenRegion[1] + kid.y;
+   var kidScreenY = screenRegion[1] + kid.y + (kid.parent != null ? kid.parent.paddingY : 0)
 
    if (kidScreenY > regionEndY)
       return [-1,-1,0,0];
