@@ -47,35 +47,62 @@ function ndNew(parent, id) {
       , kids: []
       , clipPadding: 0
 
-      , y: 0
-      , w: 0
-      , h: 0
+      , _x: 0
+      , _y: 0
+      , _w: 0
+      , _h: 0
 
       , borderColor: [1, 1, 1]
       , color: [1, 1, 1]
 
-      , textColor: [1, 1, 1]
       , text: null
+      , textColor: [1, 1, 1]
       , textX: 0
       , textY: 0
       , fontName: 'courier'
       , fontStyle: 'default'
       , fontSize: 10
 
-      , opacity: 1,
+      , opacity: 1
 
-      set x(i){
-         var orig = this._x;
-         var mod = ndFireValue(ValueEvent.ON_X, this, orig, i);
+      // x
+      , set x(newValue){
+         this._set('_x', ValueEvent.ON_X, newValue);
+      }
 
-         if (mod === undefined)
-            mod = i;
+      , get x(){ return this._x; }
 
-         if (mod != orig)
-            this._x = mod;
-      },
+      // y
+      , set y(newValue){
+         this._set('_y', ValueEvent.ON_Y, newValue);
+      }
 
-      get x(){ return this._x; }
+      , get y(){ return this._y; }
+
+      // w
+      , set w(newValue){
+         this._set('_w', ValueEvent.ON_W, newValue);
+      }
+
+      , get w(){ return this._w; }
+
+      // h
+      , set h(newValue){
+         this._set('_h', ValueEvent.ON_H, newValue);
+      }
+
+      , get h(){ return this._h; }
+
+      , _set: function(varname, event, newValue) {
+            var oldValue = this[varname];
+            var mod = ndFireValue(event, this, oldValue, newValue);
+
+            if (mod === undefined)
+               mod = newValue;
+
+            if (mod != oldValue)
+               this[varname] = mod;
+      }
    };
 
    node.parent = parent;

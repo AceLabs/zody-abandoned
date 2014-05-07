@@ -1,9 +1,15 @@
 var ValueEvent = {
      ON_X: 'ON_X'
+   , ON_Y: 'ON_Y'
+   , ON_W: 'ON_W'
+   , ON_H: 'ON_H'
 };
 
 var ValueRegistry = {
      ON_X:  {} // targetNode.x : [ {callback, listenerNode} ]
+   , ON_Y:  {} // targetNode.x : [ {callback, listenerNode} ]
+   , ON_W:  {} // targetNode.x : [ {callback, listenerNode} ]
+   , ON_H:  {} // targetNode.x : [ {callback, listenerNode} ]
 };
 
 function ndRegisterValue(event, targetNode, cb) {
