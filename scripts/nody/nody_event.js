@@ -1,6 +1,5 @@
 var Event = {
      TICK:       'TICK'
-   , KID_ADD:       'KID_ADD'
 
    , MOUSE_MOVE:       'MOUSE_MOVE'
    , MOUSE_LEFT_DOWN:  'MOUSE_LEFT_DOWN'
@@ -13,7 +12,6 @@ var Event = {
 
 var Registry = {
      TICK:        {} // callbacks by id
-   , KID_ADD:        {} // callbacks by id
 
    , MOUSE_MOVE:        {} // callbacks by id
    , MOUSE_LEFT_DOWN:   {} // callbacks by id
@@ -30,6 +28,10 @@ function ndOnTick(cb) {
 
 function ndOnKidAdd(cb) {
     ndRegister(Event.KID_ADD, cb);
+}
+
+function ndOnKidRemove(cb) {
+    ndRegister(Event.KID_REMOVE, cb);
 }
 
 function ndOnMouseExit(cb) {

@@ -3,13 +3,18 @@ var ValueEvent = {
    , ON_Y: 'ON_Y'
    , ON_W: 'ON_W'
    , ON_H: 'ON_H'
+
+   , ON_KID_ADD:     'ON_KID_ADD'
+   , ON_KID_REMOVE:  'ON_KID_REMOVE'
 };
 
 var ValueRegistry = {
-     ON_X:  {} // targetNode.x : [ {callback, listenerNode} ]
-   , ON_Y:  {} // targetNode.x : [ {callback, listenerNode} ]
-   , ON_W:  {} // targetNode.x : [ {callback, listenerNode} ]
-   , ON_H:  {} // targetNode.x : [ {callback, listenerNode} ]
+     ON_X:           {} // targetNode.x : [ {callback, listenerNode} ]
+   , ON_Y:           {}
+   , ON_W:           {}
+   , ON_H:           {}
+   , ON_KID_ADD:     {}
+   , ON_KID_REMOVE:  {}
 };
 
 function ndRegisterValue(event, targetNode, cb) {

@@ -107,8 +107,11 @@ function ndNew(parent, id) {
 
    node.parent = parent;
 
-   if (parent != null)
+   if (parent != null) {
       parent.kids.push(node);
+
+      ndFireValue(ValueEvent.ON_KID_ADD, parent, node);
+   }
 
    return node;
 }
