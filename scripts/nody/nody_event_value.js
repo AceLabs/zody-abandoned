@@ -31,7 +31,7 @@ function ndRegisterValue(event, targetNode, cb) {
    ValueRegistry[event][targetNode.id].push(obj);
 }
 
-function ndFireValue(event, targetNode, oldValue, newValue) {
+function ndFireValue(event, targetNode, oldValue, newValue, modded) {
    var callbacksByTargetNodeId = ValueRegistry[event];
 
    if (targetNode.id in callbacksByTargetNodeId) {
@@ -40,7 +40,11 @@ function ndFireValue(event, targetNode, oldValue, newValue) {
       for (var i = 0; i < list.length; i++) {
          var elem = list[i]; // {cb, listenerNode}
 
-         return elem.cb.call(elem.listenerNode, targetNode, oldValue, newValue);
+         if (elem.listenerNode.active) {
+            var temp = modded[0];
+            modded[0] = elem.cb.call(elem.listenerNode, targetNode, oldValue, modded[0]);
+            oldValue = temp;
+         }
       }
    }
 }

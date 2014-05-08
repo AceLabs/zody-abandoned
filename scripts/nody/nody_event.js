@@ -67,7 +67,10 @@ function ndRegister(event, cb) {
    Registry[event][node.id].push(cb);
 }
 
-function ndFireNode(node, event) {
+function ndFireAtNode(node, event) {
+   if (!node.active)
+      return;
+
    var callbacksByNodeId = Registry[event];
 
    if (callbacksByNodeId[node.id] === undefined )
@@ -90,6 +93,9 @@ function ndFire(event) {
    var callbacksByNodeId = Registry[event];
 
    for (var nodeId in callbacksByNodeId) {
+      if (!ND_NODY._nodeById[nodeId].active)
+         return;
+
       var callbacks = callbacksByNodeId[nodeId];
 
       for (var i = 0; i < callbacks.length; i++) {
