@@ -17,7 +17,7 @@ var ValueRegistry = {
    , ON_H:           {}
 
    , ON_ACTIVE:           {}
-   
+
    , ON_KID_ADD:     {}
    , ON_KID_REMOVE:  {}
 };

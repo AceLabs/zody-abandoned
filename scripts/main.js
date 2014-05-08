@@ -76,6 +76,7 @@ ndBegin('p');
       ndEnd();
 
       ndBegin('c4');
+         ndActive(false);
          ndPos(120,30);
          ndDim(80, 125);
          ndBorderColor(1, 1, 0);

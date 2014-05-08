@@ -38,6 +38,10 @@ function ndVar(name, value) {
    ND_NODY._curNode[name] = value;
 }
 
+function ndActive(active) {
+   ND_NODY._curNode.active = active;
+}
+
 function ndNew(parent, id) {
    var node = {
         id: id
