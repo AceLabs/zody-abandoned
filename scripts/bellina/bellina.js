@@ -2,6 +2,9 @@ include('nody/nody');
 include('bellina/bellina_private');
 
 function blRender(node, d, parentScreenPos) {
+   if (!node.active)
+      return;
+   
    if (!node.clipped)
       d.pushInfiniteClipRegion();
 
