@@ -59,7 +59,7 @@ function ndOnMouseLeftClick(cb) {
 }
 
 function ndRegister(event, cb) {
-   node = ndThis();
+   var node = ndThis();
 
    if (Registry[event][node.id] === undefined)
       Registry[event][node.id] = [];
@@ -94,7 +94,7 @@ function ndFire(event) {
 
       for (var i = 0; i < callbacks.length; i++) {
          var cb = callbacks[i];
-         cb.call(node);
+         cb.call();
       }
    }
 }
