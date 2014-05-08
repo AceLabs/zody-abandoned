@@ -46,8 +46,6 @@ function ndNew(parent, id) {
    var node = {
         id: id
 
-      , active: true
-
       , nudgeX: 0
       , nudgeY: 0
 
@@ -63,6 +61,8 @@ function ndNew(parent, id) {
       , _y: 0
       , _w: 0
       , _h: 0
+
+      , _active: true
 
       , borderColor: [1, 1, 1]
       , color: [1, 1, 1]

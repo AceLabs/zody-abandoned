@@ -2,6 +2,9 @@ function _ndFindNodeAt(x,y,parent,parentScreenRegion, rootScreenRegion) {
    for (var i = 0; i < parent.kids.length; i++) {
       var kid = parent.kids[i];
 
+      if (!kid.active)
+         continue;
+
       if (kid.clipped) {
          kidScreenRegion = _ndGetClippedRegion(parentScreenRegion, kid, parentScreenRegion);
       }
@@ -17,36 +20,6 @@ function _ndFindNodeAt(x,y,parent,parentScreenRegion, rootScreenRegion) {
 
          if (hitNode != null)
             return hitNode;
-      }
-   }
-
-   return null;
-}
-
-function _ndFindGlobalNodeAt(x,y,parent,parentScreenRegion,rootScreenRegion) {
-   for (var i = 0; i < parent.kids.length; i++) {
-      var kid = parent.kids[i];
-
-      if (!kid.clipped) {
-         var kidScreenRegion;
-
-         if (kid.clipped) {
-            kidScreenRegion = _ndGetClippedRegion(parentScreenRegion, kid, rootScreenRegion);
-         }
-         else {
-            kidScreenRegion = _ndGetClippedRegion(parentScreenRegion, kid, rootScreenRegion);
-         }
-
-   //      if (kid.id == 'c2') {
-   //            println('----------------------');
-   //         println(JSON.stringify(kidScreenRegion));
-   //         println(JSON.stringify([x,y]));
-   //         println('is hit ' + _ndIsHit(x, y, kidScreenRegion));
-   //      }
-
-
-         if (_ndIsHit(x, y, kidScreenRegion))
-            return _ndFindNodeAt(x,y,kid,kidScreenRegion,rootScreenRegion);
       }
    }
 
