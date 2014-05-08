@@ -42,6 +42,8 @@ function ndNew(parent, id) {
    var node = {
         id: id
 
+      , active: true
+
       , nudgeX: 0
       , nudgeY: 0
 
@@ -98,6 +100,15 @@ function ndNew(parent, id) {
       }
 
       , get h(){ return this._h; }
+
+      // active
+      , set active(newValue){
+         this._set('_active', ValueEvent.ON_ACTIVE, newValue);
+      }
+
+      , get active(){ return this._active; }
+
+      // -------------------------------------------------
 
       , _set: function(varname, event, newValue) {
             var oldValue = this[varname];

@@ -4,6 +4,8 @@ var ValueEvent = {
    , ON_W: 'ON_W'
    , ON_H: 'ON_H'
 
+   , ON_ACTIVE: 'ON_ACTIVE'
+
    , ON_KID_ADD:     'ON_KID_ADD'
    , ON_KID_REMOVE:  'ON_KID_REMOVE'
 };
@@ -13,6 +15,9 @@ var ValueRegistry = {
    , ON_Y:           {}
    , ON_W:           {}
    , ON_H:           {}
+
+   , ON_ACTIVE:           {}
+   
    , ON_KID_ADD:     {}
    , ON_KID_REMOVE:  {}
 };
