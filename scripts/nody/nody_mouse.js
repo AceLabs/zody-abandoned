@@ -22,13 +22,13 @@ function MouseListener_onMove(x, y) {
 
    var hitNode = mouseNode || ndFindNodeAt(x,y);
 
-   ndFireAtNode(hitNode, Event.MOUSE_MOVE, x, y);
+   ndFireAtNode(Event.MOUSE_MOVE, hitNode, x, y);
 
    if (hitNode != ND_MOUSE.lastNode_mouseMove) {
       if (ND_MOUSE.lastNode_mouseMove)
-         ndFireAtNode(ND_MOUSE.lastNode_mouseMove, Event.MOUSE_EXIT, x, y);
+         ndFireAtNode(Event.MOUSE_EXIT, ND_MOUSE.lastNode_mouseMove, x, y);
 
-      ndFireAtNode(hitNode, Event.MOUSE_ENTER, x, y);
+      ndFireAtNode(Event.MOUSE_ENTER, hitNode, x, y);
 
       ND_MOUSE.lastNode_mouseMove = hitNode;
    }
@@ -39,17 +39,17 @@ function MouseListener_onLeftDown(x, y) {
 
    var hitNode = ND_MOUSE.lastNode_mouseLeftDown = mouseNode || ndFindNodeAt(x,y);
 
-   ndFireAtNode(hitNode, Event.MOUSE_LEFT_DOWN, x, y);
+   ndFireAtNode(Event.MOUSE_LEFT_DOWN, hitNode, x, y);
 }
 
 function MouseListener_onLeftUp(x, y) {
    var mouseNode = ndGetMouseCapturedNode();
    var hitNode = mouseNode || ndFindNodeAt(x,y);
 
-   ndFireAtNode(hitNode, Event.MOUSE_LEFT_UP, x, y);
+   ndFireAtNode(Event.MOUSE_LEFT_UP, hitNode, x, y);
 
    if (ND_MOUSE.lastNode_mouseLeftDown != null && ND_MOUSE.lastNode_mouseLeftDown.id == hitNode.id) {
-      ndFireAtNode(hitNode, Event.MOUSE_LEFT_CLICK, x, y);
+      ndFireAtNode( Event.MOUSE_LEFT_CLICK, hitNode, x, y);
    }
 
    ND_MOUSE.lastNode_mouseLeftDown = null;

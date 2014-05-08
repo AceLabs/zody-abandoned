@@ -67,7 +67,7 @@ function ndRegister(event, cb) {
    Registry[event][node.id].push(cb);
 }
 
-function ndFireAtNode(node, event) {
+function ndFireAtNode(event, node) {
    if (!node.active)
       return;
 
@@ -79,12 +79,9 @@ function ndFireAtNode(node, event) {
    var callbacks = callbacksByNodeId[node.id];
 
    if (callbacks !== undefined) {
-      var x = arguments[2];
-      var y = arguments[3];
-
       for (var i = 0; i < callbacks.length; i++) {
          var cb = callbacks[i];
-         cb.call(node, x, y);
+         cb.apply(node, arguments);
       }
    }
 }
@@ -93,14 +90,16 @@ function ndFire(event) {
    var callbacksByNodeId = Registry[event];
 
    for (var nodeId in callbacksByNodeId) {
-      if (!ND_NODY._nodeById[nodeId].active)
-         return;
+      var node = ND_NODY._nodeById[nodeId];
+
+      if (!node.active)
+         continue;
 
       var callbacks = callbacksByNodeId[nodeId];
 
       for (var i = 0; i < callbacks.length; i++) {
          var cb = callbacks[i];
-         cb.call();
+         cb.apply(node, arguments);
       }
    }
 }
