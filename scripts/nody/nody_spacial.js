@@ -1,4 +1,4 @@
-function _ndFindNodeAt(x,y,parent,parentScreenRegion, rootScreenRegion) {
+function _ndFindNodeAt(x, y, parent, parentScreenRegion, rootScreenRegion) {
    for (var i = 0; i < parent.kids.length; i++) {
       var kid = parent.kids[i];
 
@@ -13,10 +13,10 @@ function _ndFindNodeAt(x,y,parent,parentScreenRegion, rootScreenRegion) {
       }
 
       if (_ndIsHit(x, y, kidScreenRegion)) {
-         return _ndFindNodeAt(x,y,kid,kidScreenRegion, rootScreenRegion) || kid;
+         return _ndFindNodeAt(x, y, kid, kidScreenRegion, rootScreenRegion) || kid;
       }
-      else if (_ndHasGlobalKid(kid) ) {
-         var hitNode = _ndFindNodeAt(x,y,kid,kidScreenRegion, rootScreenRegion);
+      else if (_ndHasGlobalKid(kid)) {
+         var hitNode = _ndFindNodeAt(x, y, kid, kidScreenRegion, rootScreenRegion);
 
          if (hitNode != null)
             return hitNode;
@@ -33,22 +33,22 @@ function _ndGetClippedRegion(parentScreenRegion, kid, clipScreenRegion) {
    var kidScreenX = parentScreenRegion[0] + kid.x + (kid.parent != null ? kid.parent.paddingX : 0);
 
    if (kidScreenX > regionEndX)
-      return [-1,-1,0,0];
+      return [-1, -1, 0, 0];
 
    var kidScreenY = parentScreenRegion[1] + kid.y + (kid.parent != null ? kid.parent.paddingY : 0)
 
    if (kidScreenY > regionEndY)
-      return [-1,-1,0,0];
+      return [-1, -1, 0, 0];
 
    var kidScreenEndX = kidScreenX + kid.w - 1;
 
    if (kidScreenEndX < clipScreenRegion[0])
-      return [-1,-1,0,0];
+      return [-1, -1, 0, 0];
 
    var kidScreenEndY = kidScreenY + kid.h - 1;
 
    if (kidScreenEndY < clipScreenRegion[1])
-      return [-1,-1,0,0];
+      return [-1, -1, 0, 0];
 
    if (kidScreenEndX > regionEndX)
       kidScreenEndX = regionEndX;

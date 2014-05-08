@@ -88,12 +88,10 @@ function ndNew(parent, id) {
       , _set: function (varname, event, newValue) {
          var oldValue = this[varname];
 
-         var modded = [newValue];
+         newValue = ndFireValue(event, this, oldValue, newValue);
 
-         ndFireValue(event, this, oldValue, newValue, modded);
-
-         if (modded[0] != oldValue)
-            this[varname] = modded[0];
+         if (newValue != oldValue)
+            this[varname] = newValue;
       }
    };
 
@@ -195,11 +193,6 @@ function ndEnd() {
 }
 
 function ndFindNodeAt(x, y) {
-   // this function will be affected by introduction of the following tags
-   //visible
-   //clip
-   //global pos kids
-
    var root = ND_NODY.root;
    var screenRegion = [root.x, root.y, root.w, root.h];
 

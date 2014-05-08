@@ -25,7 +25,7 @@ ndBegin('p');
 
    ndPlugin('draggable', 'drag');
 
-   ndBegin('c1');
+/*   ndBegin('c1');
       ndPos(150,100);
       ndDim(200, 150);
       ndBorderColor(0, 1, 0);
@@ -36,11 +36,10 @@ ndBegin('p');
       ndFontName('courier');
       ndFontStyle('default');
       ndFontSize(15);
-//      ndOpacity(1);
       ndPlugin('vibrate', 'vibrate');
       ndPlugin('draggable', 'drag');
    ndEnd();
-
+*/
    ndBegin('c2');
       ndClipPadding(1);
       ndPos(150,300);
