@@ -54,7 +54,7 @@ ndBegin('p');
       ndFontStyle('default');
       ndFontSize(15);
       ndOpacity(1);
-      ndClipped(false);
+//      ndClipped(false);
 
       ndPlugin('draggable', 'drag');
 
